@@ -41,4 +41,20 @@ function factorial(n) {
 
     
 }
+##ejercicio4 
+function stringMultiplicar(n) {
+    var salida= "";
+    var producto;
+
+   for(var i=1;i<=10;i++){
+       producto =n*i;
+       salida +=n+"x"+i+"="+producto;
+       if((i+1)<=10){
+    salida += "/";
+        }
+   } 
+    
+
+return salida
+}
 
