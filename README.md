@@ -58,7 +58,7 @@ function stringMultiplicar(n) {
 return salida
 }
 
-##ejercicio 4
+##ejercicio 5
 
 function casiPalindrome(palabra) {
  var tam=palabra.length;
